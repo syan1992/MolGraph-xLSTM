@@ -11,13 +11,13 @@ The dependencies for this project are listed in the `requirements.txt` file. Bel
 ---
 
 ## Installation Steps
-git clone https://github.com/syan1992/MolGraph-xLSTM
-cd MolGraph-xLSTM
+git clone https://github.com/syan1992/MolGraph-xLSTM  
+cd MolGraph-xLSTM  
 
-conda create -n molgraph-xlstm python=3.10.0 -y
-conda activate molgraph-xlstm
+conda create -n molgraph-xlstm python=3.10.0 -y  
+conda activate molgraph-xlstm  
 
-pip install -r requirements.txt
+pip install -r requirements.txt  
 
 
 ## Running the code
