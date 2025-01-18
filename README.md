@@ -1,24 +1,23 @@
 # MolGraph-xLSTM
 
-## Install
+MolGraph-xLSTM is a deep learning model designed for molecular graph analysis, capable of efficiently processing chemical data.
 
-To install the required packages, follow these instructions (tested on a linux terminal):
+---
 
-1- clone the repository
+## Requirements
 
-```
+The dependencies for this project are listed in the `requirements.txt` file. Below are the installation steps tested on a Linux environment, using Conda to create a Python 3.10.0 environment.
+
+---
+
+## Installation Steps
 git clone https://github.com/syan1992/MolGraph-xLSTM
-```
-
-2- cd into the cloned directory
-
-```
 cd MolGraph-xLSTM
-```
 
-3- run the install script
-```
+conda create -n molgraph-xlstm python=3.10.0 -y
+conda activate molgraph-xlstm
+
 pip install -r requirements.txt
-```
 
-We run the code on GPU.
+
+## Running the code
