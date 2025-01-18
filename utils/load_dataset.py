@@ -158,7 +158,7 @@ class PygOurDataset(InMemoryDataset):
             "seyonec/ChemBERTa_zinc250k_v2_40k", max_len=100
         )
 
-        self.tokenizer_simple = SmilesTokenizer('uti/vocab.txt')
+        self.tokenizer_simple = SmilesTokenizer('utils/vocab.txt')
         self.transform_pe = AddRandomWalkPE(walk_length=5) 
         self.geom3d = UniMolRepr(data_type='molecule')
         super(PygOurDataset, self).__init__(self.folder, transform, pre_transform)

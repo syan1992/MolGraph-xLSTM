@@ -18,7 +18,7 @@ from xlstm import (
 
 from models.deepgcn_vertex import GENConv
 from models.deepgcn_nn import MLP, norm_layer
-from utils.chem_uti import AtomEncoder, BondEncoder, FGEncoder
+from utils.chem_utils import AtomEncoder, BondEncoder, FGEncoder
 
 class xLSTMModule(torch.nn.Module):
     def __init__(self, num_blocks: int, embedding_dim: int, slstm: List[int], proj_factor: int = 2, act_fn: str = "relu"):

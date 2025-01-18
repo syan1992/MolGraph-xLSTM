@@ -29,6 +29,7 @@ from loss.loss_scl_reg import SupConLossReg
 from models.deepgcn import GraphxLSTM
 from models.module import MLP, MLPMoE
 
+import pdb
 warnings.filterwarnings("ignore")
 
 def set_seed(num_seed):
@@ -73,7 +74,7 @@ class ContrastiveEncode(torch.nn.Module):
         return x
 
 class MolPropertyPrediction(torch.nn.Module):
-    def __init__(self, molxlstm: Module, dim_feat: int, opt: Any):
+    def __init__(self, molxlstm: Module, opt: Any):
         super(MolPropertyPrediction, self).__init__()
 
         self.molxlstm = molxlstm
@@ -91,7 +92,7 @@ class MolPropertyPrediction(torch.nn.Module):
         self.classifier.extend(MLPMoE(input_feat = opt.num_dim * opt.power, dim_feat = opt.num_dim * opt.power, num_tasks=opt.num_tasks, num_experts = opt.num_experts, num_heads = opt.num_heads) for _ in range(classifier_num))
 
     def forward(self, input_molecule: Tensor, phase: str = "train"):
-        f_out, atom_feat, fg_feat, graph_feat = self.model_graph(input_molecule)
+        f_out, atom_feat, fg_feat, graph_feat = self.molxlstm(input_molecule)
 
         atom_feat_norm = F.normalize(self.enc_joint_1(atom_feat), 1)
         fg_feat_norm = F.normalize(self.enc_joint_2(fg_feat), 1)
@@ -199,6 +200,7 @@ def train(
             labels = (batch.y - mu) / std
         else:
             labels = batch.y
+        
         # compute loss
         (
             output_final,
@@ -210,7 +212,7 @@ def train(
             graph_feat,
             f_out,
             loss_auc
-        ) = model(batch, opt)
+        ) = model(batch, 'train')
 
 
         if (opt.classification):
@@ -350,7 +352,7 @@ def validation(
                 fg_feat, 
                 graph_feat,
                 f_out
-            ) = model(batch, opt, "valid")
+            ) = model(batch, "valid")
 
             if not opt.classification:
                 output = (output_final) * std + mu
