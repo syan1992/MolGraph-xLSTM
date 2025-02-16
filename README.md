@@ -4,20 +4,10 @@ MolGraph-xLSTM is a graph-based dual-level xLSTM framework designed for molecula
 ![MolGraph-xLSTM Architecture](mol-xlstm.png)
 
 ## **Requirements**  
-To ensure reproducibility, all dependencies are listed in `requirements.txt`. Below are the tested installation steps for setting up the environment on **Linux (Ubuntu 20.04+)** using **Conda and Python 3.10.0**.
-
-### **Dependencies**
-- **Python** >= 3.10.0  
-- **PyTorch** >= 1.7.1  
-- **Torch-Geometric** >= 2.5.3  
-- **RDKit** >= 2022.09.05  
-- **NumPy**, **pandas**, **scikit-learn**  
-- **DeepChem** (for molecular preprocessing)  
-
+To ensure reproducibility, all dependencies are listed in `requirements.txt`. Below are the tested installation steps for setting up the environment on **Linux (Ubuntu 22.04)** using **Conda and Python 3.10.0**.
 ---
 
 ## **Installation**  
-
 Clone the repository and set up the Conda environment:  
 
 ```bash
@@ -27,4 +17,9 @@ cd MolGraph-xLSTM
 conda create -n molgraph-xlstm python=3.10.0 -y
 conda activate molgraph-xlstm
 
+pip install --index-url https://download.pytorch.org/whl/cu121 torch==2.2.0+cu121 torchvision torchaudio
+pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
 pip install -r requirements.txt
+
+## **Data**
+
