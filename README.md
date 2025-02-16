@@ -1,11 +1,10 @@
-# **MolGraph-xLSTM**  
+## **MolGraph-xLSTM**  
 MolGraph-xLSTM is a graph-based dual-level xLSTM framework designed for molecular property prediction. This model improves molecular feature extraction and enhances prediction accuracy for both classification and regression tasks.
 
 ![MolGraph-xLSTM Architecture](mol-xlstm.png)
 
 ## **Requirements**  
 To ensure reproducibility, all dependencies are listed in `requirements.txt`. Below are the tested installation steps for setting up the environment on **Linux (Ubuntu 22.04)** using **Conda and Python 3.10.0**.
----
 
 ## **Installation**  
 Clone the repository and set up the Conda environment:  
