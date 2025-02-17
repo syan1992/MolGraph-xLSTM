@@ -9,15 +9,15 @@ To ensure reproducibility, all dependencies are listed in `requirements.txt`. Be
 ## **Installation**  
 Clone the repository and set up the Conda environment:  
 
-git clone https://github.com/syan1992/MolGraph-xLSTM
-cd MolGraph-xLSTM
+git clone https://github.com/syan1992/MolGraph-xLSTM  
+cd MolGraph-xLSTM  
 
-conda create -n molgraph-xlstm python=3.10.0 -y
-conda activate molgraph-xlstm
+conda create -n molgraph-xlstm python=3.10.0 -y  
+conda activate molgraph-xlstm  
 
-pip install --index-url https://download.pytorch.org/whl/cu121 torch==2.2.0+cu121 torchvision torchaudio
-pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
-pip install -r requirements.txt
+pip install --index-url https://download.pytorch.org/whl/cu121 torch==2.2.0+cu121 torchvision torchaudio  
+pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.2.0+cu121.html  
+pip install -r requirements.txt  
 
 ## **Data**
 
