@@ -9,7 +9,6 @@ To ensure reproducibility, all dependencies are listed in `requirements.txt`. Be
 ## **Installation**  
 Clone the repository and set up the Conda environment:  
 
-```bash
 git clone https://github.com/syan1992/MolGraph-xLSTM
 cd MolGraph-xLSTM
 
@@ -21,4 +20,6 @@ pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https:
 pip install -r requirements.txt
 
 ## **Data**
+
+
 
