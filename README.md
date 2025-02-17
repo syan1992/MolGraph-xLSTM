@@ -35,7 +35,7 @@ The following datasets are used in our experiments:
 | **Lipo**    | 4.2k       | Regression |
 | **Caco2**   | 0.9k       | Regression |
 
-Each dataset was split into **training (80%), validation (10%), and test (10%)** subsets.
+Each dataset was split into **training (80%), validation (10%), and test (10%)** subsets.  
 All partitioned datasets are located in the `datasets` folder.
 
 ## **Running Code**
