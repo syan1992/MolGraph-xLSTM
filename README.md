@@ -55,6 +55,7 @@ All partitioned datasets are located in the `datasets` folder.
 | **Caco2**   | 906       | Regression |
 | **PPBR**    | 1797       | Regression |
 | **LD50**   | 7385       | Regression |
+
 Each dataset was split into **training (70%), validation (10%), and test (20%)** subsets.  
 All partitioned datasets are located in the `datasets` folder.
 
