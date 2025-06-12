@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 ## **Data**
 The following datasets are used in our experiments:
+1. MoleculeNet Dataset
 
 | **Dataset**  | **Samples** | **Task Type** |
 |-------------|------------|--------------|
@@ -36,6 +37,26 @@ The following datasets are used in our experiments:
 | **Caco2**   | 0.9k       | Regression |
 
 Each dataset was split into **training (80%), validation (10%), and test (10%)** subsets.  
+All partitioned datasets are located in the `datasets` folder.
+
+2. TDC Dataset
+   
+| **Dataset**  | **Samples** | **Task Type** |
+|-------------|------------|--------------|
+| **HIA**    | 578       | Binary Classification |
+| **Pgp**    | 1212       | Binary Classification |
+| **Bioavailability** 640    | 41.1k      | Binary Classification |
+| **CYP2D6-I** | 13130       | Binary Classification |
+| **CYP3A4-I**   | 12328       | Binary Classification |
+| **CYP2C9-I**   | 12092       | Binary Classification |
+| **hERG**    | 648       | Binary Classification |
+| **AMES**| 7255       | Binary Classification |
+| **DILI**    | 475       | Binary Classification |
+| **Caco2**   | 906       | Regression |
+| **PPBR**    | 1797       | Regression |
+| **LD50**   | 7385       | Regression |
+
+Each dataset was split into **training (70%), validation (10%), and test (20%)** subsets.  
 All partitioned datasets are located in the `datasets` folder.
 
 ## **Running Code**
