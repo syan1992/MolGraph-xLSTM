@@ -1,0 +1,92 @@
+Drug_ID,Drug,Y
+H 95/71,CC(C)NCC(O)COc1ccc(NC=O)cc1,-5.4279842
+H 244/45,CCC(=O)Nc1ccc(OCC(O)CNC(C)C)cc1,-5.2198415
+D-Phe-D-Ala-D-Ser-OH,C[C@H](NC(=O)[C@H](N)Cc1ccccc1)C(=O)N[C@H](CO)C(=O)O,-6.2819986
+Dexloxiglumide,CCCCCN(CCCOC)C(=O)[C@@H](CCC(=O)O)NC(=O)c1ccc(Cl)c(Cl)c1,-5.140130999999999
+Ac-D-phe-NH2,CC(=O)N[C@@H](Cc1ccccc1)C(N)=O,-5.10009
+benzoic acid,O=C(O)c1ccccc1,-4.0050001
+Methylparaben,COC(=O)c1ccc(O)cc1,-4.46
+Propylparaben,CCCOC(=O)c1ccc(O)cc1,-4.3899999
+Butylparaben,CCCCOC(=O)c1ccc(O)cc1,-4.4899998
+Octylparaben,CCCCCCCCOC(=O)c1ccc(O)cc1,-4.880000099999998
+Guanabenz,NC(N)=NN=Cc1c(Cl)cccc1Cl,-4.329999900000002
+Methyldopa,C[C@@](N)(Cc1ccc(O)c(O)c1)C(=O)O,-6.619894
+5-chlorosalicylic acid,O=C(O)c1cc(Cl)ccc1O,-4.98
+epinephrine,CNC[C@H](O)c1ccc(O)c(O)c1,-6.125
+N-Acetyl-D-leucyl-D-phenylalanine N-Methylamide (4),CNC(=O)[C@@H](Cc1ccccc1)NC(=O)[C@@H](CC(C)C)NC(C)=O,-5.2142239
+N-Acetylglycine Phenethylamide (7),CC(=O)NCC(=O)NCCc1ccccc1,-4.6597776
+N-Acetyl-D-valine Phenethylamide (9a),CC(=O)N[C@@H](C(=O)NCCc1ccccc1)C(C)C,-4.4610906
+glycine-valine acyclovir,CC(=O)C(NC(=O)CN)c1ccc(O)cc1,-5.2800002
+guanabenz,NC(N)=N/N=C/c1c(Cl)cccc1Cl,-4.6799998
+7,CNS(=O)(=O)c1ccc(Cl)cc1,-4.186419
+6,NS(=O)(=O)c1ccc(Cl)cc1,-4.2620125
+Tanshinol (TSL),O=C(O)C(O)Cc1ccc(O)c(O)c1,-5.9118199
+Metoprolol,COCCc1ccc(OCC(O)CNC(C)C)cc1,-4.3493013
+acetaminophen,CC(=O)Nc1ccc(O)cc1,-4.4400001
+N-[5-[(4-Dimethylaminobenzoyl)amino]pentyl]-2-mercaptoacetamide (S2),CN(C)c1ccc(C(=O)NCCCCCNC(=O)CS)cc1,-5.1324477
+Vorinostat (SAHA-suberoylanilide hydroxamic acid),O=C(CCCCCCC(=O)Nc1ccccc1)NO,-5.629466099999999
+Sulfanilic acid,Nc1ccc(S(=O)(=O)O)cc1,-5.4299998
+Paraoxon,CCOP(=O)(OCC)Oc1ccc(N(O)O)cc1,-4.6900001
+alminoprofen,C=C(C)CNc1ccc(C(C)C(=O)O)cc1,-4.3400002
+D-Glu(OBzl)-Ala,CC(NC(=O)[C@@H](N)CCC(=O)OCc1ccccc1)C(=O)O,-5.6912522
+N-Acetyl-D-alanyl-D-phenylalanine N-Methylamide (2),CNC(=O)[C@@H](Cc1ccccc1)NC(=O)[C@@H](C)NC(C)=O,-5.7484403
+N-Acetyl-D-valyl-D-phenylalanine N-Methylamide (3a),CNC(=O)[C@@H](Cc1ccccc1)NC(=O)[C@H](NC(C)=O)C(C)C,-5.3900242
+D-Ser(Bzl)-Ala,CC(NC(=O)[C@@H](N)COCc1ccccc1)C(=O)O,-5.9906998
+N-Acetyl-D-alanine Phenethylamide (8),CC(=O)N[C@H](C)C(=O)NCCc1ccccc1,-4.6095328
+N-Acetyl-D-leucine Phenethylamide (10),CC(=O)N[C@H](CC(C)C)C(=O)NCCc1ccccc1,-4.513246499999998
+174-Guanabenz,NC(N)=N/N=C/c1c(Cl)cccc1Cl,-4.363411900000001
+285-Ephedrine,CN[C@@H](C)[C@@H](O)c1ccccc1,-4.9913998
+Amphetamine sulfate,C[C@H](N)Cc1ccccc1,-4.3899999
+OXe,CC(=O)NC(O)CNc1ccc(C(C)=O)cc1,-5.2199998
+Ethylparaben,CCOC(=O)c1ccc(O)cc1,-4.8102908
+Bisoprolol,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,-4.7600002
+Methyl gallate,COC(=O)c1cc(O)c(O)c(O)c1,-5.3899999
+Bupropion,CC(NC(C)(C)C)C(=O)c1cccc(Cl)c1,-3.9519544
+Epinephrine,CNCC(O)c1ccc(O)c(O)c1,-6.0188646
+"(E)-4-(3,4-dimethoxyphenyl)but-3-en-1-yl linoleate (1)",CCCCC/C=C\C/C=C\CCCCCCCC(=O)OCC/C=C/c1ccc(OC)c(OC)c1,-4.8498521
+"(E)-4-(3,4-dimethoxyphenyl)but-3-en-1-yl oleate (2)",CCCCCCCC/C=C\CCCCCCCC(=O)OCC/C=C/c1ccc(OC)c(OC)c1,-5.0101638
+Compound D,COc1ccc(/C=C/CCO)cc1OC,-4.8428431
+Brucine N-oxide (B-N),COc1cc2c(cc1OC)[C@]13CC[N+]4([O-])CC5=CCO[C@@H]6CC(=O)N2[C@@H]1[C@@H]6[C@@H]5C[C@H]34,-5.46
+Remikiren (Ro 42-5892),CC(C)(C)S(=O)(=O)C[C@H](Cc1ccccc1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@H](CC1CCCCC1)[C@@H](O)[C@H](O)C1CC1,-6.1300907
+Cerulenin,C/C=C/C/C=C/CCC(=O)[C@@H]1O[C@@H]1C(N)=O,-5.4224062
+60a,COc1ccc2c(O[C@@H]3C[C@H]4C(=O)N[C@]5(C(=O)NS(=O)(=O)C6CC6)C[C@H]5/C=C\CCCCCN(C)C(=O)[C@@H]4C3)nc(-c3ccccc3)nc2c1C,-4.5900002
+67c,COc1ccc2c(O[C@H]3C[C@H]4C(=O)NCCCCC/C=C\[C@@H]5C[C@@]5(C(=O)NS(=O)(=O)C5CC5)NC(=O)[C@@H]4C3)nc(-c3ccc(F)cc3)nc2c1C,-4.4899998
+BILN-2061,COc1ccc2c(O[C@@H]3CC4C(=O)N[C@]5(C(=O)O)C[C@@H]5/C=C\CCCCC[C@H](NC(=O)OC5CCCC5)C(=O)N4C3)cc(-c3csc(NC(C)C)n3)nc2c1,-5.6599998
+E25,NC(=O)/C=C(\c1cccc(F)c1)c1ccc2nc(N)n(S(=O)(=O)NC(=O)N3CCOCC3)c2c1,-4.7399998
+E23,CNC(=O)/C=C(\c1cccc(F)c1)c1ccc2nc(N)n(S(=O)(=O)NC(=O)N3CCOCC3)c2c1,-4.3899999
+LY366092,CNC(=O)/C=C(/c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1)c1ccccc1-c1cccc2ccccc12,-4.0300002
+Lobucavir,Nc1nc(O)c2ncn([C@@H]3C[C@H](CO)[C@H]3CO)c2n1,-6.0555172
+cephalexin,CC1=C(C(=O)O)N2C(=O)C(NC(=O)C(N)c3ccccc3)C2SC1,-6.3600001
+cephalexin acetylated,CC(=O)NC(C(=O)NC1C(=O)N2C(C(=O)O)=C(C)CSC12)c1ccccc1,-6.6300000999999975
+4c,COC(=O)/C=C/CNC(=O)CN1C(=O)[C@@H](COC(=O)Nc2ccc(Cl)cc2C(F)(F)F)N=C(c2ccccc2)c2ccccc21,-5.4200000999999975
+PNU-179450,CCC(=O)NC[C@H]1CN(c2ccc(-c3nncs3)c(F)c2)C(=O)O1,-4.4308991
+PNU-182347,CC(=S)NC[C@H]1CN(c2ccc(-c3nnc(CN)s3)c(F)c2)C(=O)O1,-4.8219547
+PNU-182945,CNCc1nnc(-c2ccc(N3C[C@H](CNC(C)=S)OC3=O)cc2F)s1,-4.769775900000001
+PNU-241028,CC(=S)NC[C@H]1CN(c2ccc(-c3nnc(CNS(C)(=O)=O)s3)c(F)c2)C(=O)O1,-5.619894
+PNU-179962,CC(=O)NC[C@H]1CN(c2ccc(-c3nnc(CC/C(C)=N\O)s3)c(F)c2)C(=O)O1,-5.250906
+Salvianolic acid D (SAD),O=C(O)Cc1c(/C=C/C(=O)OC(Cc2ccc(O)c(O)c2)C(=O)O)ccc(O)c1O,-7.1795706999999975
+Folinic acid,Nc1nc(=O)c2c([nH]1)NCC(CNc1ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc1)N2C=O,-7.5214391
+Ouabain,C[C@@H]1O[C@@H](O[C@H]2C[C@@H](O)[C@@]3(CO)[C@H]4[C@H](O)C[C@]5(C)[C@@H](C6=CC(=O)OC6)CC[C@]5(O)[C@@H]4CC[C@]3(O)C2)[C@H](O)[C@H](O)[C@H]1O,-6.9593034
+cymarin,CO[C@H]1C[C@H](O[C@H]2CC[C@]3(C=O)[C@H]4CC[C@]5(C)[C@@H](C6=CC(=O)OC6)CC[C@]5(O)[C@@H]4CC[C@]3(O)C2)O[C@H](C)[C@H]1O,-5.6999998
+ouabain,C[C@@H]1O[C@@H](O[C@H]2C[C@@H](O)[C@]3(CO)[C@H]4[C@H](O)C[C@]5(C)[C@@H](C6=CC(=O)OC6)CC[C@]5(O)[C@@H]4CC[C@]3(O)C2)[C@H](O)[C@H](O)[C@H]1O,-7.23
+Cymarin,COC1CC(OC2CCC3(C=O)C4CCC5(C)C(C6=CC(=O)OC6)CCC5(O)C4CCC3(O)C2)OC(C)C1O,-5.5799999000000025
+27,Cn1c(N2CCN(CCCN3c4ccccc4Sc4ccc(CC(=O)O)cc43)CC2)cc(=O)n(C)c1=O,-4.9099998
+29,Cn1c(N2CCN(CCCN3c4ccccc4Sc4ccc(CCC(=O)O)cc43)CC2)cc(=O)n(C)c1=O,-5.29
+21,Cn1c(N2CCN(CCCN3c4ccccc4Sc4ccc(C(=O)O)cc43)CC2)cc(=O)n(C)c1=O,-5.0
+1,CN1C(=O)CC(N2CCN(CCCN3c4ccccc4Sc4ccc(CC(=O)O)cc43)CC2)N(C)C1=O,-4.9099998
+XI,CCCCOc1cccc(NC(=O)OCCN2CCCC2)c1,-4.5900002
+XIV,CCCCCOc1cccc(NC(=O)OCCN2CCCC2)c1,-4.77
+V,CCOc1cccc(NC(=O)OCCN2CCCC2)c1,-4.5500002
+VIII,CCCOc1cccc(NC(=O)OCCN2CCCC2)c1,-4.5700002
+CA-DADLE,CC(C)C[C@H]1NC(=O)[C@@H](Cc2ccccc2)NC(=O)CNC(=O)[C@@H](C)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)/C=C\c2ccccc2OC1=O,-5.8800000999999975
+Corynanthine (COR),COC(=O)[C@H]1[C@H](O)CC[C@@H]2CN3CCc4c([nH]c5ccccc45)[C@H]3C[C@H]21,-4.729893700000001
+Yohimbine (YOH),COC(=O)C1C(O)CCC2CN3CCc4c([nH]c5ccccc45)C3CC21,-4.8099999
+801-Yohimbine (YOH),COC(=O)[C@@H]1[C@H](O)CC[C@@H]2CN3CCc4c([nH]c5ccccc45)[C@H]3C[C@H]21,-4.8124795
+Tenidap,NC(=O)n1c(O)c(C(=O)c2cccs2)c2cc(Cl)ccc21,-4.3103647
+"3-[5-(4-hydroxyphenyl)-1,3-oxazol-2-yl]phenol (18)",Oc1ccc(-c2cnc(-c3cccc(O)c3)o2)cc1,-5.1011863
+20(S)-camptothecin (CPT),CC[C@]1(O)C(=O)OCc2c1cc1n(c2=O)-c2cc3ccccc3nc2C1,-4.3318486
+PDE-310,ON1C=CC=C(c2cc3nccc(-c4ccc(OC(F)F)c(OCC5CC5)c4)n3n2)C1,-4.71
+DG (13),COc1ccc(-c2cc(=O)c3c(O)cc(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)cc3o2)cc1O,-6.9204097
+fluparoxan,Fc1cccc2c1O[C@H]1CNC[C@@H]1O2,-4.099999899999999
+Fluparoxan (GR50360A),Fc1cccc2c1O[C@H]1CNC[C@H]1O2,-3.729485
+daidzin ,O=c1c(-c2ccc(O)cc2)coc2cc(OC3OC(CO)C(O)C(O)C3O)ccc12,-6.3600001
