@@ -71,5 +71,5 @@ All partitioned datasets are located in the `datasets` folder.
 This project is licensed under the MIT License.
 
 ## **Acknowledgement**
-Supervised contrastive learning : https://github.com/HobbitLong/SupContrast
+Supervised contrastive learning : https://github.com/HobbitLong/SupContrast  
 mixture-of-expert: https://github.com/lucidrains/mixture-of-experts/tree/master
