@@ -68,7 +68,7 @@ All partitioned datasets are located in the `datasets` folder.
    --slstm 0 --data_dir "datasets" --num_gc_layers 4  --power 4 --num_dim 256 --dropout 0.5 --mlp_layer 1 --num_experts 8 --num_heads 8
 
 ## **Hyperparameter Setting**
-Run the commands in Running Code according to the following hyperparameter settings:
+Run the commands in Running Code according to the following hyperparameter settings for other datasets:
 
 Moleculenet Dataset Hyperparameter Setting
 | | power | dimension | #experts | #heads | #expert layer |
