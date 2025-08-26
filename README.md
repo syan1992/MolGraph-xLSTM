@@ -67,6 +67,37 @@ All partitioned datasets are located in the `datasets` folder.
    python main.py --lr_decay_epochs 800 --lr_decay_rate 0.5 --learning_rate 0.0002 --batch_size 128 --epochs 200 --trial 41 --dataset freesolv --num_tasks 1 --num_blocks 2
    --slstm 0 --data_dir "datasets" --num_gc_layers 4  --power 4 --num_dim 128 --dropout 0.5 --mlp_layer 1 --num_experts 8 --num_heads 8
 
+## **Hyperparameter Setting**
+
+Moleculenet Dataset Hyperparameter Setting
+| | power | dimension | #experts | #heads | #expert layer |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| BACE | 4 | 256 | 8 | 16 | 2 |
+| BBBP | 4 | 256 | 8 | 8 | 2 |
+| HIV | 2 | 128 | 4 | 8 | 2 |
+| ClinTox | 4 | 128 | 8 | 8 | 1 |
+| Sider | 4 | 128 | 8 | 8 | 1 |
+| Tox21 | 4 | 128 | 8 | 8 | 2 |
+| Freesolv | 4 | 256 | 8 | 8 | 1 |
+| ESOL | 4 | 256 | 8 | 8 | 1 |
+| Lipo | 4 | 128 | 8 | 8 | 2 |
+
+TDC Dataset Hyperparameter Setting
+| | power | dimension | #experts | #heads | #expert layer |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| HIA | 4 | 32 | 4 | 4 | 2 |
+| Pgp | 4 | 128 | 4 | 4 | 2 |
+| Bioav | 4 | 128 | 4 | 4 | 2 |
+| CYP2D6-I | 4 | 64 | 4 | 4 | 2 |
+| CYP3A4-I | 4 | 128 | 4 | 4 | 2 |
+| CYP2C9-I | 4 | 128 | 4 | 4 | 2 |
+| hERG | 4 | 32 | 4 | 4 | 2 |
+| AMES | 4 | 64 | 4 | 4 | 2 |
+| DILI | 4 | 128 | 8 | 8 | 2 |
+| Caco2 | 4 | 128 | 4 | 4 | 2 |
+| PPBR | 4 | 64 | 4 | 4 | 2 |
+| LD50 | 4 | 128 | 4 | 4 | 2 |
+
 ## **License**
 This project is licensed under the MIT License.
 
