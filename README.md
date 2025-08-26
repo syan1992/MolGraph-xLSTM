@@ -62,12 +62,13 @@ All partitioned datasets are located in the `datasets` folder.
 ## **Running Code**
 1. Classification  
    python main.py --lr_decay_epochs 300 --lr_decay_rate 0.5 --learning_rate 0.0001 --batch_size 128 --epochs 100 --trial 44 --dataset bace --num_tasks 1 --classification --num_blocks 2
-   --slstm 0 --data_dir "datasets" --num_gc_layers 4 --power 4 --num_dim 128 --num_experts 4 --num_heads 4
+   --slstm 0 --data_dir "datasets" --num_gc_layers 4 --power 4 --num_dim 256 --mlp_layer 2 --num_experts 8 --num_heads 16 
 2. Regression  
    python main.py --lr_decay_epochs 800 --lr_decay_rate 0.5 --learning_rate 0.0002 --batch_size 128 --epochs 200 --trial 41 --dataset freesolv --num_tasks 1 --num_blocks 2
-   --slstm 0 --data_dir "datasets" --num_gc_layers 4  --power 4 --num_dim 128 --dropout 0.5 --mlp_layer 1 --num_experts 8 --num_heads 8
+   --slstm 0 --data_dir "datasets" --num_gc_layers 4  --power 4 --num_dim 256 --dropout 0.5 --mlp_layer 1 --num_experts 8 --num_heads 8
 
 ## **Hyperparameter Setting**
+Run the commands in Running Code according to the following hyperparameter settings:
 
 Moleculenet Dataset Hyperparameter Setting
 | | power | dimension | #experts | #heads | #expert layer |
